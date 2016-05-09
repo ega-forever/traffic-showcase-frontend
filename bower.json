@@ -1,0 +1,24 @@
+{
+  "name": "client",
+  "authors": [
+    "zyevegor <zyev.egor@rambler.ru>"
+  ],
+  "description": "",
+  "main": "",
+  "moduleType": [],
+  "license": "MIT",
+  "homepage": "https://github.com/ega-forever/maps-showcase",
+  "dependencies": {
+    "angular-mocks": "~1.5.0",
+    "jasmine-core": "jasmine#~2.4.1",
+    "webapps-jasmine2": "*",
+    "bootstrap" : "*"
+  },
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
