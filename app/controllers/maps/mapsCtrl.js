@@ -1,5 +1,5 @@
 /**
- *@controller google maps controller
+ *@controller maps - google maps controller
  * @inject shareEventService to handle map touch event through factory's scope
  */
 angular.module('maps', [])

@@ -1,5 +1,5 @@
 /**
- *@factory to fetch nsi
+ *@factory nsi - store actions to fetch nsi
  */
 angular.module('nsiFactory', [])
   .factory('nsiFetchService', function ($http) {

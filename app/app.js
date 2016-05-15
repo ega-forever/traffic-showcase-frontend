@@ -1,5 +1,6 @@
 /**
  * @callback when angular is loaded
+ * @inject - info, maps, eventFactory, nsiFactory modules
  */
 (function(angular) {
     angular.module('app', ['maps', 'info', 'eventFactory', 'nsiFactory'])

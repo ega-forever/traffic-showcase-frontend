@@ -1,5 +1,5 @@
 /**
- *@factory to handle map touch event
+ *@factory event - handle map touch event
  */
 angular.module('eventFactory', [])
     .factory('shareEventService', function ($rootScope) {

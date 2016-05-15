@@ -1,3 +1,8 @@
+/**
+ *@controller infoList - display info about route distance,
+ * bus credentials and total income
+ *@inject shareEventService to handle map touch event through factory's scope
+ */
 angular.module('info', [])
   .controller('infoListCtrl', function ($http, shareEventService) {
 
@@ -5,7 +10,6 @@ angular.module('info', [])
 
     shareEventService.getMapUpdateEvent(function (ev, obj) {
 
-      console.log(obj);
       $http({
         method: 'GET',
         url: 'http://localhost:9000/calculate',
